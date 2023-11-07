@@ -1,0 +1,14 @@
+fields:
+    title:
+        label: 'Название объекта'
+        span: auto
+        type: text
+    posters:
+        label: 'Фотографии объекта'
+        span: auto
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: fileupload

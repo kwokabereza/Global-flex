@@ -1,0 +1,12 @@
+list: $/annb/globalflex/models/review/columns.yaml
+modelClass: Annb\Globalflex\Models\Review
+title: Reviews
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'annb/globalflex/reviews/update/:id'

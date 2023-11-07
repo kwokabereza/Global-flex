@@ -1,0 +1,10 @@
+name: Videos
+form: $/annb/globalflex/models/video/fields.yaml
+modelClass: Annb\Globalflex\Models\Video
+defaultRedirect: annb/globalflex/videos
+create:
+    redirect: 'annb/globalflex/videos/update/:id'
+    redirectClose: annb/globalflex/videos
+update:
+    redirect: annb/globalflex/videos
+    redirectClose: annb/globalflex/videos

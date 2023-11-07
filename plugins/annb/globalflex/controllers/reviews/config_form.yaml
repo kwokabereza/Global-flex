@@ -1,0 +1,10 @@
+name: Reviews
+form: $/annb/globalflex/models/review/fields.yaml
+modelClass: Annb\Globalflex\Models\Review
+defaultRedirect: annb/globalflex/reviews
+create:
+    redirect: 'annb/globalflex/reviews/update/:id'
+    redirectClose: annb/globalflex/reviews
+update:
+    redirect: annb/globalflex/reviews
+    redirectClose: annb/globalflex/reviews

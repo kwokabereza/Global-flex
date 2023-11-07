@@ -1,0 +1,23 @@
+plugin:
+    name: 'annb.globalflex::lang.plugin.name'
+    description: 'annb.globalflex::lang.plugin.description'
+    author: AnnB
+    icon: oc-icon-area-chart
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Отзывы
+        url: annb/globalflex/reviews
+        icon: icon-child
+    main-menu-item2:
+        label: Акция
+        url: annb/globalflex/promos
+        icon: icon-angellist
+    main-menu-item3:
+        label: Видео
+        url: annb/globalflex/videos
+        icon: icon-video-camera
+    main-menu-item4:
+        label: 'Наши проекты'
+        url: annb/globalflex/projects
+        icon: icon-sitemap

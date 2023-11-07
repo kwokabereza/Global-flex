@@ -1,0 +1,18 @@
+fields:
+    title:
+        label: 'Имя клиента'
+        span: auto
+        type: text
+    mediafinder:
+        label: 'Фотография объекта'
+        mode: image
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: mediafinder
+    content:
+        label: 'Текст отзыва'
+        span: auto
+        size: large
+        type: textarea

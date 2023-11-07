@@ -1,0 +1,10 @@
+name: Promos
+form: $/annb/globalflex/models/promo/fields.yaml
+modelClass: Annb\Globalflex\Models\Promo
+defaultRedirect: annb/globalflex/promos
+create:
+    redirect: 'annb/globalflex/promos/update/:id'
+    redirectClose: annb/globalflex/promos
+update:
+    redirect: annb/globalflex/promos
+    redirectClose: annb/globalflex/promos

@@ -1,0 +1,26 @@
+columns:
+    id:
+        label: Номер
+        type: number
+        searchable: false
+        sortable: true
+    title:
+        label: 'Имя клиента'
+        type: text
+        searchable: true
+        sortable: true
+    content:
+        label: 'Текст отзыва'
+        type: text
+        searchable: false
+        sortable: true
+    created_at:
+        label: created_at
+        type: datetime
+        searchable: true
+        sortable: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        searchable: true
+        sortable: true

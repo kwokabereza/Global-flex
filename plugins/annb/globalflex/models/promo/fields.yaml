@@ -1,0 +1,16 @@
+fields:
+    text:
+        label: 'Первая часть текста акции'
+        size: ''
+        span: auto
+        type: textarea
+    description:
+        label: 'Основная часть (КРАСНЫЙ ЦВЕТ)'
+        size: ''
+        span: auto
+        type: textarea
+    content:
+        label: 'Вторая часть текста акции'
+        size: ''
+        span: auto
+        type: textarea

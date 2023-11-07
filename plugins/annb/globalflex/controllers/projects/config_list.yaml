@@ -1,0 +1,12 @@
+list: $/annb/globalflex/models/project/columns.yaml
+modelClass: Annb\Globalflex\Models\Project
+title: Projects
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'annb/globalflex/projects/update/:id'

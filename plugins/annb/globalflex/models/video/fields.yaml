@@ -1,0 +1,9 @@
+fields:
+    title:
+        label: 'Название видео'
+        span: auto
+        type: text
+    slug:
+        label: 'Ссылка на видео'
+        span: auto
+        type: text

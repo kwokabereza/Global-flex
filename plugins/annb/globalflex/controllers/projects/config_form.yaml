@@ -1,0 +1,10 @@
+name: Projects
+form: $/annb/globalflex/models/project/fields.yaml
+modelClass: Annb\Globalflex\Models\Project
+defaultRedirect: annb/globalflex/projects
+create:
+    redirect: 'annb/globalflex/projects/update/:id'
+    redirectClose: annb/globalflex/projects
+update:
+    redirect: annb/globalflex/projects
+    redirectClose: annb/globalflex/projects
